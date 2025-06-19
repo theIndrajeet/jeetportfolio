@@ -145,7 +145,7 @@
                         <a href="#experience" class="nav-link text-text-muted hover:text-text-main transition-colors">Experience</a>
                         <a href="#projects" class="nav-link text-text-muted hover:text-text-main transition-colors">Projects</a>
                         <a href="#skills" class="nav-link text-text-muted hover:text-text-main transition-colors">Skills</a>
-                        <a href="#sandbox" class="nav-link text-text-muted hover:text-text-main transition-colors">AI Sandbox</a>
+                        <a href="#sandbox" class="nav-link text-text-muted hover:text-text-main transition-colors">AI Q&A</a>
                         <a href="#contact" class="nav-link text-text-muted hover:text-text-main transition-colors">Contact</a>
                     </div>
                 </nav>
@@ -160,7 +160,7 @@
                 <a href="#experience" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">Experience</a>
                 <a href="#projects" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">Projects</a>
                 <a href="#skills" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">Skills</a>
-                <a href="#sandbox" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">AI Sandbox</a>
+                <a href="#sandbox" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">AI Q&A</a>
                 <a href="#contact" class="block px-3 py-2 rounded-md text-lg font-medium text-text-muted hover:text-text-main hover:bg-white/5">Contact</a>
             </div>
         </div>
@@ -265,14 +265,14 @@
                         <div class="text-indigo-400 mb-4"><i data-feather="cpu" class="w-10 h-10"></i></div>
                         <h3 class="text-2xl font-bold mb-3 text-white">Lawyer AI</h3>
                         <p class="text-text-muted mb-6">India's first legal AI, trained on over 2,000 documents to optimize research. I handled incorporation, fundraising, and IP protection.</p>
-                         <a href="https://lilithai.tech" target="_blank" rel="noopener noreferrer" class="font-semibold text-indigo-400 hover:text-indigo-300 inline-flex items-center">Try it Out <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                         <a href="https://chatgpt.com/g/g-wfryNy91i-lawyer-ai-india" target="_blank" rel="noopener noreferrer" class="font-semibold text-indigo-400 hover:text-indigo-300 inline-flex items-center">Try it Out <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
                     </div>
                      <!-- Project Card -->
                      <div class="bg-dark-bg p-8 rounded-lg border border-gray-800 hover:border-indigo-500/50 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                         <div class="text-indigo-400 mb-4"><i data-feather="shield" class="w-10 h-10"></i></div>
                         <h3 class="text-2xl font-bold mb-3 text-white">iCompliance Tool</h3>
                         <p class="text-text-muted mb-6">An internal regulatory intelligence system I developed to streamline cross-border telehealth and data privacy compliance across 190+ countries.</p>
-                         <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300 inline-flex items-center">Learn More <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                         <a href="https://icompliance.netlify.app/" target="_blank" rel="noopener noreferrer" class="font-semibold text-indigo-400 hover:text-indigo-300 inline-flex items-center">Try it Out <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -311,25 +311,30 @@
         <section id="sandbox" class="py-24 md:py-32 bg-card-bg">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                  <div class="text-center mb-16" data-aos="fade-up">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4">AI Legal Sandbox</h2>
-                    <p class="text-lg text-text-muted max-w-3xl mx-auto">Ask a legal question or enter a topic to get a brief AI-generated analysis. A demonstration of Gemini's capabilities in the legal field.</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4">Ask Me Anything (AI)</h2>
+                    <p class="text-lg text-text-muted max-w-3xl mx-auto">This is an AI-powered Q&A trained on my CV. Ask it anything about my experience, skills, or projects.</p>
                 </div>
                  <div class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
                     <div class="bg-dark-bg p-8 rounded-lg border border-gray-800 relative">
                         <div id="ai-loader-container" class="hidden"><div class="ai-loader rounded-lg"><div class="loader-circle"></div></div></div>
-                        <textarea id="ai-prompt" class="w-full h-32 p-4 bg-card-bg rounded-md border-2 border-gray-700 focus:border-indigo-500 focus:ring-0 transition-all text-lg text-text-main" placeholder="e.g., Explain 'fair use' in copyright law..."></textarea>
+                        <textarea id="ai-prompt" class="w-full h-24 p-4 bg-card-bg rounded-md border-2 border-gray-700 focus:border-indigo-500 focus:ring-0 transition-all text-lg text-text-main" placeholder="e.g., What was your main role at Intellect?"></textarea>
+                        <div class="mt-4 flex flex-wrap gap-3">
+                            <button class="suggestion-btn bg-indigo-500/10 text-indigo-300 text-sm px-4 py-2 rounded-full hover:bg-indigo-500/20">Tell me about the iCompliance tool.</button>
+                            <button class="suggestion-btn bg-indigo-500/10 text-indigo-300 text-sm px-4 py-2 rounded-full hover:bg-indigo-500/20">What was your biggest challenge at Quis Lex?</button>
+                            <button class="suggestion-btn bg-indigo-500/10 text-indigo-300 text-sm px-4 py-2 rounded-full hover:bg-indigo-500/20">How do you use tech in your legal work?</button>
+                        </div>
                         <div class="text-center mt-6">
                             <button id="ask-ai-button" class="btn-primary">
                                 <span class="flex items-center justify-center gap-2">
                                     <i data-feather="zap" class="w-5 h-5"></i>
-                                    <span>Ask Legal AI</span> 
+                                    <span>Ask my AI</span> 
                                 </span>
                             </button>
                         </div>
                     </div>
                     <div id="ai-result-container" class="mt-8 hidden">
                          <div class="bg-dark-bg p-8 rounded-lg border border-gray-800">
-                            <h3 class="text-2xl font-bold mb-4 gradient-text">AI Analysis</h3>
+                            <h3 class="text-2xl font-bold mb-4 gradient-text">AI Response</h3>
                             <div id="ai-result" class="text-text-muted space-y-4 leading-relaxed"></div>
                         </div>
                     </div>
@@ -402,6 +407,24 @@
                     }
                 });
             });
+            
+            // --- CV Data for AI Prompt ---
+            const cvData = `
+                Name: Indrajeet K Singh
+                Education: BBA LLB (IPR Hons), CGPA 8.22/10 from KIIT School of Law.
+                Experience:
+                - Legal & Ops at Intellect (Nov 2024 - Present): Spearheaded iCompliance tool for telehealth compliance across 190+ countries. Built and managed a Legal Resource Hub. Researched GDPR, PDPA, HIPAA. Drafted privacy policies, consent forms.
+                - Legal Executive at Quis Lex (Jun 2024 - Aug 2024): Conducted document review for high-profile US cases, improving accuracy from 95% to 99%.
+                - Legal Intern at Bank of Baroda (Aug 2024 - Sep 2024): Researched property valuations and insurance implications.
+                - Legal Intern at Central Bank of India (Dec 2023 - Jan 2024): Drafted legal agreements and researched financial fraud cases.
+                - Legal Intern at Scriboard (Jul 2023 - Aug 2023): Developed GDPR/CCPA compliance frameworks.
+                - Legal Intern at Tata Motors (Dec 2022 - Jan 2023): Analyzed data privacy for patent licensing and connected vehicles.
+                - Judicial Intern at Jharkhand High Court (Jul 2022 - Aug 2022): Assisted Hon'ble Justice Mr. Sanjay Prasad.
+                Projects:
+                - Lawyer AI: Founder & Project Lead. Trained an AI on 2,000+ legal documents. Handled company incorporation (Lex Root Pvt Ltd), fundraising, and IP. Link: https://chatgpt.com/g/g-wfryNy91i-lawyer-ai-india
+                - iCompliance Tool: Developed an internal regulatory intelligence system at Intellect. Link: https://icompliance.netlify.app/
+                Publications: Published articles on "Cross-Border Insolvency" and "Samsung's Strategic Mastery in Licensing" in the International Journal For Legal Research & Analysis.
+            `;
 
             // Gemini API Sandbox Logic
             const askAiButton = document.getElementById('ask-ai-button');
@@ -409,53 +432,64 @@
             const aiResultContainer = document.getElementById('ai-result-container');
             const aiResult = document.getElementById('ai-result');
             const aiLoader = document.getElementById('ai-loader-container');
+            const suggestionButtons = document.querySelectorAll('.suggestion-btn');
+
+            const handleAiRequest = async (promptText) => {
+                 if (!promptText) {
+                    aiResult.innerHTML = '<p class="text-red-400">Please enter a question.</p>';
+                    aiResultContainer.classList.remove('hidden');
+                    return;
+                }
+
+                if(aiLoader) aiLoader.classList.remove('hidden');
+                askAiButton.disabled = true;
+
+                const fullPrompt = `You are Indrajeet K Singh's personal AI assistant. Your goal is to answer questions based ONLY on the provided CV information, speaking in the first person as if you are Indrajeet. Be friendly, confident, and professional. For questions about specific challenges, feelings, or details not in the CV, use a friendly tone to explain that the CV focuses on outcomes and that you'd be happy to discuss those details in a real conversation. For example, if asked about the biggest challenge at Quis Lex, you could say: "Thanks for asking about my time at Quis Lex! My main focus there was on detailed document review for some really high-profile U.S. cases, and I was proud to help boost our team's review accuracy to 99%. As for my single biggest challenge – that's a great question that gets into details beyond my resume. That’s the kind of story that's probably best told over coffee, and I'd be happy to share more if you'd like to reach out directly!" Do NOT invent information. Always stick to the provided CV data for facts. Here is the CV data: ${cvData}. Now, please answer the following question as if you are Indrajeet: "${promptText}"`;
+                
+                try {
+                    let chatHistory = [{ role: "user", parts: [{ text: fullPrompt }] }];
+                    const payload = { contents: chatHistory };
+                    const apiKey = "AIzaSyC8YYkX29-4WyWBKWw-Sm6Cm2dATxgvpeA";
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                    
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.candidates && result.candidates[0] && result.candidates[0].content && result.candidates[0].content.parts) {
+                        let text = result.candidates[0].content.parts[0].text;
+                        text = text.replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                        aiResult.innerHTML = text;
+                    } else {
+                        aiResult.innerHTML = '<p class="text-red-400">Sorry, there was an issue generating a response. The response from the AI was empty or malformed.</p>';
+                        console.error("API Response Error:", result);
+                    }
+                } catch (error) {
+                    console.error('Error fetching from Gemini API:', error);
+                    aiResult.innerHTML = '<p class="text-red-400">An error occurred while communicating with the AI. Please try again later.</p>';
+                } finally {
+                    if(aiLoader) aiLoader.classList.add('hidden');
+                    askAiButton.disabled = false;
+                    aiResultContainer.classList.remove('hidden');
+                    aiResultContainer.scrollIntoView({behavior: "smooth", block: "center"});
+                }
+            };
 
             if(askAiButton) {
-                askAiButton.addEventListener('click', async () => {
-                    const promptText = aiPrompt.value;
-                    if (!promptText) {
-                        aiResult.innerHTML = '<p class="text-red-400">Please enter a question or topic.</p>';
-                        aiResultContainer.classList.remove('hidden');
-                        return;
-                    }
-
-                    if(aiLoader) aiLoader.classList.remove('hidden');
-                    askAiButton.disabled = true;
-
-                    const fullPrompt = `As a knowledgeable legal AI assistant, provide a concise and informative explanation for the following topic or question. Your response should be clear, well-structured for a web display, and accessible to someone with a basic understanding of law. Topic/Question: "${promptText}"`;
-                    
-                    try {
-                        let chatHistory = [{ role: "user", parts: [{ text: fullPrompt }] }];
-                        const payload = { contents: chatHistory };
-                        const apiKey = ""; // API key is handled by the environment
-                        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
-                        
-                        const response = await fetch(apiUrl, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify(payload)
-                        });
-                        
-                        const result = await response.json();
-                        
-                        if (result.candidates && result.candidates[0] && result.candidates[0].content && result.candidates[0].content.parts) {
-                            let text = result.candidates[0].content.parts[0].text;
-                            text = text.replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                            aiResult.innerHTML = text;
-                        } else {
-                            aiResult.innerHTML = '<p class="text-red-400">Sorry, there was an issue generating a response. The response from the AI was empty or malformed.</p>';
-                            console.error("API Response Error:", result);
-                        }
-                    } catch (error) {
-                        console.error('Error fetching from Gemini API:', error);
-                        aiResult.innerHTML = '<p class="text-red-400">An error occurred while communicating with the AI. Please try again later.</p>';
-                    } finally {
-                        if(aiLoader) aiLoader.classList.add('hidden');
-                        askAiButton.disabled = false;
-                        aiResultContainer.classList.remove('hidden');
-                    }
-                });
+                askAiButton.addEventListener('click', () => handleAiRequest(aiPrompt.value));
             }
+
+            suggestionButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const question = button.innerText;
+                    aiPrompt.value = question;
+                    handleAiRequest(question);
+                });
+            });
         });
     </script>
 </body>
